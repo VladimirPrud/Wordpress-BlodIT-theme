@@ -1,0 +1,38 @@
+14-11-2024 03:03:28 - INFO  - 8.6.0 - 65,8 МБ/256 МБ - blog-admin > Start upgrade from 0.0.0
+14-11-2024 03:03:28 - INFO  - 8.6.0 - 66,1 МБ/256 МБ - blog-admin > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+14-11-2024 03:03:28 - INFO  - 8.6.0 - 66,1 МБ/256 МБ - blog-admin > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+14-11-2024 03:03:28 - INFO  - 8.6.0 - 66,1 МБ/256 МБ - blog-admin > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+14-11-2024 03:03:28 - INFO  - 8.6.0 - 66,1 МБ/256 МБ - blog-admin > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+14-11-2024 03:03:28 - INFO  - 8.6.0 - 66,1 МБ/256 МБ - blog-admin > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+14-11-2024 03:03:28 - INFO  - 8.6.0 - 66,1 МБ/256 МБ - blog-admin > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+14-11-2024 03:03:28 - INFO  - 8.6.0 - 66,1 МБ/256 МБ - blog-admin > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+)
+
+14-11-2024 03:03:28 - INFO  - 8.6.0 - 66,1 МБ/256 МБ - blog-admin > Backing up options of 0.0.0
+14-11-2024 03:03:28 - INFO  - 8.6.0 - 66,1 МБ/256 МБ - blog-admin > End

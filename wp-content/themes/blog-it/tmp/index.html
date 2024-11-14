@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная | Блог</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a class="logo header__logo">
+                <img src="img/logo.svg" alt="Лого блога">
+            </a>
+            <div class="header__right">
+                <nav class="nav header__nav">
+                    <ul class="nav__list list-reset">
+                        <li class="nav__item"><a href="#" class="nav__link nav__link-active">Главная</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link search-link">Поиск</a></li>
+                    </ul>
+                </nav>
+                <a href="tel:+798788787" class="phone">+7 (987) 887-87</a>
+            </div>        
+        </div>
+        <div class="header-search">
+			<button class="btn-reset header-search__close">
+				<svg width="10.000000" height="10.000000" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <desc>
+                            Created with Pixso.
+                    </desc>
+                    <defs>
+                        <clipPath id="clip2_456">
+                            <rect rx="-0.500000" width="9.000000" height="9.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                        </clipPath>
+                    </defs>
+                    <rect rx="-0.500000" width="9.000000" height="9.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+                    <g clip-path="url(#clip2_456)">
+                        <path d="M0.14 0.83C-0.05 0.64 -0.05 0.33 0.14 0.14C0.33 -0.05 0.64 -0.05 0.83 0.14L4.99 4.31L9.16 0.14C9.35 -0.05 9.66 -0.05 9.85 0.14C10.04 0.33 10.04 0.64 9.85 0.83L5.69 4.99L9.85 9.16C10.04 9.35 10.04 9.66 9.85 9.85C9.66 10.04 9.35 10.04 9.16 9.85L4.99 5.69L0.83 9.85C0.64 10.04 0.33 10.04 0.14 9.85C-0.05 9.66 -0.05 9.35 0.14 9.16L4.3 4.99L0.14 0.83Z" fill="#2F2222" fill-opacity="1.000000" fill-rule="nonzero"/>
+                    </g>
+                </svg>              
+			</button>
+			<form action="#" class="header-search__form">
+				<input type="search" class="header-search__input form-input">
+				<button class="header-search__btn form-btn btn-reset">
+					<span>Найти</span>
+					<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc>
+                                Created with Pixso.
+                        </desc>
+                        <defs>
+                            <clipPath id="clip2_447">
+                                <rect rx="-0.500000" width="19.000000" height="19.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                            </clipPath>
+                        </defs>
+                        <rect rx="-0.500000" width="19.000000" height="19.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+                        <g clip-path="url(#clip2_447)">
+                            <path d="M19.87 18.69L14.06 12.88C15.16 11.52 15.83 9.79 15.83 7.91C15.83 3.55 12.28 0 7.91 0C3.55 0 0 3.55 0 7.91C0 12.28 3.55 15.83 7.91 15.83C9.79 15.83 11.52 15.16 12.88 14.06L18.69 19.87C18.86 20.04 19.12 20.04 19.28 19.87L19.87 19.28C20.04 19.12 20.04 18.86 19.87 18.69ZM7.91 14.16C4.47 14.16 1.66 11.36 1.66 7.91C1.66 4.47 4.47 1.66 7.91 1.66C11.36 1.66 14.16 4.47 14.16 7.91C14.16 11.36 11.36 14.16 7.91 14.16Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                        </g>
+                    </svg>
+                    
+				</button>
+			</form>
+		</div>
+    </header>
+    <main class="main">
+        <section class="banner">
+            <h1 class="visually-hidden">Сайт-Блог</h1>
+        </section>
+        <section class="content">
+            <h2 class="visually-hidden">Статить блога</h2>
+            <div class="container content__container">
+                <div class="posts">
+                    <article class="blog-post blog-post--main">
+                        <a href="#" class="blog-post__category">Категория 1</a>
+                        <h3 class="blog-post__title blog-title">
+                            <a href="#" class="blog-post__link">
+                                Управление ИТ-активами – скучная рутина или творческая задача?
+                            </a>
+                        </h3>
+                        <p class="blog-post__description">Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. </p>
+                        <time class="blog-post__date">13 дек 2020</time>
+                    </article>
+                    <ul class="post-grid list-reset">
+                        <li class="post-grid__item">
+                            <article class="blog-post">
+                                <a href="#" class="blog-post__category">Категория 1</a>
+                                <h3 class="blog-post__title blog-title">
+                                    <a href="#" class="blog-post__link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>
+                                </h3>
+                                <p class="blog-post__description">Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. </p>
+                                <time class="blog-post__date">13 дек 2020</time>
+                            </article>
+                        </li>
+                        <li class="post-grid__item">
+                            <article class="blog-post">
+                                <a href="#" class="blog-post__category">Категория 1</a>
+                                <h3 class="blog-post__title blog-title">
+                                    <a href="#" class="blog-post__link">
+                                        ITAM&SAMDay – самая настоящая удача!
+                                    </a>
+                                </h3>
+                                <time class="blog-post__date">13 дек 2020</time>
+                            </article>
+                        </li>
+                        <li class="post-grid__item">
+                            <article class="blog-post" style="background-image: url('/img/post-bg.jpeg');">
+                                <a href="#" class="blog-post__category">Очень длинная категория 2</a>
+                                <h3 class="blog-post__title blog-title">
+                                    <a href="#" class="blog-post__link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>
+                                </h3>
+                                <time class="blog-post__date">13 дек 2020</time>
+                            </article>
+                        </li>
+                        <li class="post-grid__item">
+                            <article class="blog-post">
+                                <a href="#" class="blog-post__category">Категория 1</a>
+                                <h3 class="blog-post__title blog-title">
+                                    <a href="#" class="blog-post__link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача слово слово и еще длинное слово после чего ...
+                                    </a>
+                                </h3>
+                                <time class="blog-post__date">13 дек 2020</time>
+                            </article>
+                        </li>
+                        <li class="post-grid__item">
+                            <article class="blog-post">
+                                <a href="#" class="blog-post__category">Категория 1</a>
+                                <h3 class="blog-post__title blog-title">
+                                    <a href="#" class="blog-post__link">
+                                        ITAM&SAMDay – самая настоящая удача!
+                                    </a>
+                                </h3>
+                                <time class="blog-post__date">13 дек 2020</time>
+                            </article>
+                        </li>
+                        <li class="post-grid__item">
+                            <article class="blog-post">
+                                <a href="#" class="blog-post__category">Категория 1</a>
+                                <h3 class="blog-post__title blog-title">
+                                    <a href="#" class="blog-post__link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>
+                                </h3>
+                                <p class="blog-post__description">Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. </p>
+                                <time class="blog-post__date">13 дек 2020</time>
+                            </article>
+                        </li>
+                        <li class="post-grid__item">
+                            <article class="blog-post">
+                                <a href="#" class="blog-post__category">Очень длинная категория 2</a>
+                                <h3 class="blog-post__title blog-title">
+                                    <a href="#" class="blog-post__link">
+                                        ITAM&SAMDay – самая настоящая удача!
+                                    </a>
+                                </h3>
+                                <time class="blog-post__date">13 дек 2020</time>
+                            </article>
+                        </li>
+                        <li class="post-grid__item">
+                            <article class="blog-post" style="background-image: url('/img/post-bg2.jpeg');">
+                                <a href="#" class="blog-post__category">Категория 1</a>
+                                <h3 class="blog-post__title blog-title">
+                                    <a href="#" class="blog-post__link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача?
+                                    </a>
+                                </h3>
+                                <time class="blog-post__date">13 дек 2020</time>
+                            </article>
+                        </li>
+                        <li class="post-grid__item">
+                            <article class="blog-post">
+                                <a href="#" class="blog-post__category">Категория 1</a>
+                                <h3 class="blog-post__title blog-title">
+                                    <a href="#" class="blog-post__link">
+                                        Управление ИТ-активами – скучная рутина или творческая задача слово слово и еще длинное слово после чего ...
+                                    </a>
+                                </h3>
+                                <time class="blog-post__date">13 дек 2020</time>
+                            </article>
+                        </li>
+                        <li class="post-grid__item">
+                            <article class="blog-post">
+                                <a href="#" class="blog-post__category">Категория 1</a>
+                                <h3 class="blog-post__title blog-title">
+                                    <a href="#" class="blog-post__link">
+                                        ITAM&SAMDay – самая настоящая удача!
+                                    </a>
+                                </h3>
+                                <time class="blog-post__date">13 дек 2020</time>
+                            </article>
+                        </li> 
+                    </ul>
+                    <ul class="pagination list-reset">
+                        <li class="pagination__item">
+                            <a class="pagination__link pagination__link-active">1</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" class="pagination__link">2</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" class="pagination__link">3</a>
+                        </li>
+                        <li class="pagination__item">
+                            <a href="#" class="pagination__link">4</a>
+                        </li>
+                    </ul>
+                </div>
+                <aside class="sidebar">
+                    <div class="popular-posts">
+                        <h3 class="popular-posts__title blog-title">Популярные новости</h3>
+                        <ul class="popular-posts__list list-reset">
+                            <li class="popular-posts__item">
+                                <article class="blog-post popular-posts__article">
+                                    <h3 class="blog-post__title blog-title">
+                                        <a href="#" class="blog-post__link">
+                                            ITAM&SAMDay – самая настоящая удача!
+                                        </a>
+                                    </h3>
+                                    <time class="blog-post__date">13 дек 2020</time>
+                                </article>
+                            </li>
+                            <li class="popular-posts__item">
+                                <article class="blog-post popular-posts__article">
+                                    <h3 class="blog-post__title blog-title">
+                                        <a href="#" class="blog-post__link">
+                                            Секреты лицензирования. Всё, что вы хотели знать про Microsoft, SAP и Oracle, но не знали, у кого спросить ...
+                                        </a>
+                                    </h3>
+                                    <time class="blog-post__date">13 дек 2020</time>
+                                </article>
+                            </li>
+                            <li class="popular-posts__item">
+                                <article class="blog-post popular-posts__article">
+                                    <h3 class="blog-post__title blog-title">
+                                        <a href="#" class="blog-post__link">
+                                            Менеджмент XXI века. Надо ли готовиться к изменениям или мы давно уже должны были измениться?
+                                        </a>
+                                    </h3>
+                                    <time class="blog-post__date">13 дек 2020</time>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subscribe">
+                        <h3 class="subscribe__title blog-title">Подписка на рассылку</h3>
+                        <form action="" class="subscribe__form sub-form">
+                            <input type="email" class="sub-form__input form-input" placeholder="Email@gmail.com">
+                            <button class="sub-form__btn form-btn btn-reset">Подписаться
+                                <svg width="20.000000" height="18.570312" viewBox="0 0 20 18.5703" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <desc>
+                                            Created with Pixso.
+                                    </desc>
+                                    <defs/>
+                                    <path id="Vector" d="M19.58 8.63L1.01 0.06C0.71 -0.08 0.36 0 0.16 0.26C-0.05 0.51 -0.06 0.88 0.14 1.14L6.25 9.28L0.14 17.42C-0.06 17.68 -0.05 18.05 0.15 18.3C0.29 18.47 0.5 18.57 0.71 18.57C0.81 18.57 0.91 18.54 1.01 18.5L19.58 9.93C19.83 9.81 20 9.56 20 9.28C20 9 19.83 8.75 19.58 8.63Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <a class="logo footer__logo">
+                <img src="img/logo.svg" alt="Лого блога">
+            </a>
+            <nav class="nav footer__nav">
+                <ul class="nav__list list-reset">
+                    <li class="nav__item"><a href="#" class="nav__link nav__link-active">О нас</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Галерея</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Новости</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <small class="footer__copy">ООО “Организация” 2020. Все права защищены</small>
+        </div>
+    </footer>
+    <script>
+
+		const searchLink = document.querySelector('.search-link');
+		const searchBlock = document.querySelector('.header-search');
+		const searchClose = document.querySelector('.header-search__close');
+		searchLink.addEventListener('click', () => {
+			searchBlock.style.display = 'block';
+		});
+
+		searchClose.addEventListener('click', () => {
+			searchBlock.style.display = 'none';
+		});
+
+	</script>
+</body>
+</html>

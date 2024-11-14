@@ -1,0 +1,8 @@
+14-11-2024 03:23:46 - ERROR - 8.6.0 - 44,6 МБ/64 МБ - blog-admin > Array
+(
+    [0] => 600
+    [1] => 0
+)
+
+14-11-2024 03:23:46 - ERROR - 8.6.0 - 44,9 МБ/256 МБ - blog-admin > Requested size larger than the original one
+14-11-2024 03:30:29 - ERROR - 8.6.0 - 39,0 МБ/256 МБ - [cron] > Could not instantiate mail function. (1) - 
